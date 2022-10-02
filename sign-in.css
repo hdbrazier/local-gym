@@ -1,0 +1,272 @@
+* {
+    /* border: 1px solid red; */
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;  
+    font-family: 'inter', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    z-index: 2;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: 'anton', sans-serif;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #D7FB00;
+}
+
+a:hover {
+    color: rgb(218, 64, 218);
+}
+
+.container-banner {
+    background-color: #D7FB00;
+    color: black;
+    text-align: center;
+    margin-top: 10%;
+    padding: 1%;
+}
+
+.not {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15%;
+}
+
+.join {
+    background-color: #999999;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    width: 20%;
+    margin-left: 40%;
+    padding: 2%;
+}
+
+.email {
+    color: black;
+}
+
+.password {
+    color: black;
+}
+.button:hover {
+    background: #dbdfdd;
+}
+  
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+  
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: 'Merriweather', serif;
+}
+  
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.popup .close:hover {
+    color: #d9dfdc;
+}
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+  
+@media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+}
+
+content, label{
+    color: black;
+}
+
+label { 
+    color: white;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit]{
+    background-color: white;
+    color: slategray;
+    padding: 12px 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: grey;
+    color: white;
+}
+
+.container{
+    padding: 15%;
+    margin: 5%;
+    margin-top: 10%;
+}
+
+.sign-in {
+    color: white;
+    margin-top: -20%;
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+    color: white;
+    margin-top: 15%;
+}
+
+footer {
+    margin-bottom: 0px;
+    background-color: #D7FB00;
+    color: black;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
+    color: black;
+}
+
+.tiny:hover {
+    color: rgb(218, 64, 218);
+}

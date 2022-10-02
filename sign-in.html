@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/99a535c709.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="sign-in.css">
+    <title>Spartan Gym</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="navbar-brand"><a href="#">Spartan Gym</a></div>
+            <div class="navbar-list">
+                
+                <ul>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="membership.html" class="nav-link">Memberships</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="menu.html" class="nav-link">Our Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sign-in.html" class="nav-link">Sign-in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- banner -->
+        <div class="container-banner">
+            <h3 class="banner-text">  -  Beginner Friendly  -  Tailored Menu  -  Certified Nutritionists  -  New Workouts Daily  -  
+            Weight-Loss Challenge  -  Unlimited Small Group Classes - 
+            </h3>
+        </div>
+
+        <div class="container">
+            <h2 class="sign-in">
+                Already a member? Sign In below...
+            </h2>
+            <button class="join" type="button"><a href="#popup1" class="signin">Sign In</a></button>
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h2>Sign In</h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        <label for="email" class="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Your email..">
+    
+                        <label for="password" class="password">Password</label>
+                        <input type="text" id="passwood" name="password" placeholder="Your Password..">
+
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </div>
+            <h2 class="not">Not yet a member? </h2>
+            <h2 class="contact">
+                Get in touch! A member of our team will contact you soon with information
+            </h2>
+            <form action="#">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+    
+                <label for="email">Your Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+                
+                <label for="phone">Your Phone Number</label>
+                <input type="text" id="phone" name="phone" placeholder="Your Phone Number..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" style="height:200px" placeholder="Write your message here.." >
+                </textarea>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+
+     <!-- Footer -->
+     <footer>
+        <div class="bottom">
+            <div class="img">
+                <img src="static/map.png" alt="Map" class="mapimg">
+            </div>
+            <div class="footinfo">
+                <div class="foothead">Info</div>
+                <div class="location">
+                    <p class="tiny"><i class="fa-solid fa-location-dot"></i> 3504 96th St, Indianapolis, 46256</p>
+                </div>
+                <div class="email">
+                    <p class="tiny"><i class="fa-regular fa-envelope"></i> info@spartangym.com</p>
+                </div>
+                <div class="phone">
+                    <p class="tiny"><i class="fa-solid fa-mobile-screen-button"></i> (317) 225-1983</p>
+                </div>
+            </div>
+            <div class="social">
+                <div class="foothead">Social</div>
+                <div class="media">
+                    <a href="#" target="_blank"><p class="tiny"><i class="fa-brands fa-facebook"></i> Facebook</p></a>
+                </div>
+                <div class="media">
+                    <a href="#" target="_blank"><p class="tiny"><i class="fa-brands fa-twitter-square"></i> Twitter</p></a>
+                </div>
+                <div class="media">
+                    <a href="#" target="_blank"><p class="tiny"><i class="fa-brands fa-youtube"></i> Youtube</p></a>
+                </div>
+                <div class="media">
+                    <a href="#" target="_blank"><p class="tiny"><i class="fa-brands fa-instagram"></i> Instagram</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
